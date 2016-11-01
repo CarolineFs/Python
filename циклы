@@ -2,3 +2,14 @@ a=0 #результат
 for i in range (1,51,2):
     a=a+i**3
 print(a)
+
+
+
+
+s=('dfkjherufv')
+for indx, item in enumerate (s):
+    print (indx, item)
+    
+      
+      
+

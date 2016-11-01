@@ -3,3 +3,11 @@ f=1
 for a in range (1, a+1):
     f=f*a
 print (f)
+
+
+
+
+import math
+a=int(input('введите число'))
+print(math.factorial(a))
+a=int(input('введите число'))

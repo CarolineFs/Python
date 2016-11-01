@@ -10,4 +10,4 @@ print (f)
 import math
 a=int(input('введите число'))
 print(math.factorial(a))
-a=int(input('введите число'))
+

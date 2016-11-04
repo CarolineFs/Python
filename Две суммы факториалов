@@ -1,4 +1,4 @@
-n=int(input('Введите чтсло: '))
+n=int(input('Введите число: '))
 if n>0:
     r=0
     for i in range (1, n+1):
@@ -7,3 +7,14 @@ if n>0:
              r_i*=x
         r+=r_i
 print(r) 
+
+
+
+
+a=int(input('Введите число: '))
+s=0
+j=1
+for x in range (1, a+1):
+    j=j*x
+    s=s+j
+print(s) 

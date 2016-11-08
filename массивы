@@ -40,3 +40,15 @@ for elem in arr:
     
     
     print('rainbow', 'is', sep=' *** ', end = ' ! ')
+
+
+
+
+
+s = 'asdfghjklpoiuytrewq'
+alphabet = 'abcdefghigklmnopqrstuvwxyz'
+letters = []
+for symbol in s:
+    if symbol in alphabet:
+        letters.append(symbol)
+print (letters)

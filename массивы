@@ -60,3 +60,12 @@ table = [[1,2], [3,4]]
 for row in table:
     for column in row:
         print (column)
+
+
+
+>>> s = '12345'
+>>> arr= s.split()
+>>> arr
+['12345']
+>>> ' '.join(arr)
+'12345'

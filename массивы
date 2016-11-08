@@ -33,3 +33,10 @@ for elem in range (len(arr)):
 
 for elem in arr:
     print(elem)
+    
+    
+    
+    
+    
+    
+    print('rainbow', 'is', sep=' *** ', end = ' ! ')

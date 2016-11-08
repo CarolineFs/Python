@@ -18,3 +18,18 @@ for i in range (5):
 print (arr)
 arr.insert(1,6)
 print (arr)
+
+
+
+
+n=5
+arr=[]
+for i in range (5):
+    s=int(input())
+    arr.append(s)
+    
+for elem in range (len(arr)):
+    arr[elem]+=1
+
+for elem in arr:
+    print(elem)

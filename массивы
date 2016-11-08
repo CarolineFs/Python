@@ -1,4 +1,5 @@
 n=5
+arr=[]
 for i in range (5):
     s=int(input(''))
     arr.append(s)
@@ -10,6 +11,7 @@ print (arr)
 
 
 n=5
+arr=[]
 for i in range (5):
     s=int(input(''))
     arr.append(s)

@@ -1,8 +1,0 @@
-arr=[]
-word=input()
-while word !=(''):
-    s=word[0:2]+word[3: ]
-    arr.append(s)
-    word=input()
-arr=arr[ :-0]
-print(arr)

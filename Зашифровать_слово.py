@@ -1,5 +1,5 @@
-word = input ('Введите слово, которое нужно зашифровать')
-key = input ('Введите ключ')
+word = input ('Введите слово, которое нужно зашифровать: ')
+key = input ('Введите ключ: ')
 vocab = 'abcdefghigklmnopqrstuvwxyz'
 table = []
 for i in range (len(vocab)):

@@ -1,0 +1,5 @@
+Пути к файлам:
+Windows: C:\\Users\\student\\downloads
+Linux+Mac: /home/liza/Downloads
+
+Мщдуль OS работает, в зависимости от ОС вашего ПК.

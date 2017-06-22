@@ -35,12 +35,24 @@ def writefile():
     with open ('Parts of speech frequency', 'w', encoding = 'UTF-8') as f:
         for pos in d:
             f.writelines(pos+'\t'+str(d[pos])+'\n')
-print (all_pos())
+def instr():
+    text4 = openfile()
+    nouns = re.findall(r'>(\w+)<ana lex="\w+" gr="S,\w,\w\w\w\w=ins', text4)
+    text4 = re.findall(r'>(\w+)<', text4)
+    for i in range(len(text4)):
+        for j in nouns:
+            if j == text4[i]:
+                print(j)
+                with open ('instr.txt', 'w', encoding = 'UTF-8') as f:
+                    f.writelines(text4[i-3]+' '+text4[i-2]+' '+text4[i-i]+'\t'+text4[i]+'\t'+text4[i+1]+' '+text4[i+2]+' '+text4[i+3])
+    return nouns
+
 
 
 def main():
     print (aver_ana_per_words ())
     writefile()
+    instr()
 if __name__ == '__main__':
     main()
 
